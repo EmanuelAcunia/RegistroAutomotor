@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Verdana";
+}
+body{
+    /*background: #655643 url('../imagenes/aniversario.png');*/
+    background: #999999;
+}
+#contenido{
+    background: white;
+    width: 80%;
+    margin:5% auto;
+    /*border: 2px dotted #E6AC27;*/
+}
+#encabezado{
+    background: #BF4D28;
+}
+h1{
+    color:#F6F7BD;
+    margin: 4%;
+}
+#menu ul{
+    list-style: none;
+    margin-left: 30%;
+    font-size: 12px;
+}
+#menu ul li{
+    display: inline;
+    margin-right: 2%;
+}
+#menu ul li a{
+    color:white;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: #E6AC27;
+    color:#655643;
+}
+#principal{
+    padding: 5%;
+}
+h2{
+    color: #655643;
+}
+#pie{
+    background: #BF4D28;
+    color:#F6F7BD;
+    padding: 1%;
+    text-align: center;
+    font-size: 10px;
+}
+table{
+    width: 90%;
+    margin:2% auto;
+    font-size: 12px;
+}
+th{
+    background: #E6AC27;
+    border-bottom: #655643;
+}
+.fila1{
+    background-color: #fdf3c8;
+}
+.fila2{
+    background-color: #f9e1af;
+}
+.centrado{
+    text-align: center;
+}
+form{
+    padding: 2%;
+    border: 2px dotted #E6AC27;
+}
+label{
+    display:inline-block;
+    width: 8%;
+}
+input, select{
+    margin:0% 0% 2% 8%;
+}
+.mensaje{
+    color:red;
+    font-weight: bold;
+}
+.actual{
+    background-color: #E6AC27;
+    color:#655643;    
+}
+
+.mensaje_sesion {
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.usuario_sesion {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
